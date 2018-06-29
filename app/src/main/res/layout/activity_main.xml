@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+    <ImageView
+
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:background="#1fbfd1"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/questionmark"
+
+
+      />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/questionmark"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#1fbfd1"
+            android:textSize="40sp"
+            android:layout_weight="1"
+            android:src="@drawable/questionmark"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#1fd122"
+            android:textSize="40sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/questionmark"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#1fbfd1"
+            android:textSize="40sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/questionmark"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/questionmark"
+
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#d1631f"
+            android:textSize="40sp"
+            android:layout_weight="1"
+            android:src="@drawable/questionmark"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#4b3aa3"
+            android:textSize="40sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/questionmark"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#d11f34"
+            android:textSize="40sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/questionmark"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:background="#84d11f"
+        android:textSize="40sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/questionmark"
+        />
+    <ImageView
+        android:src="@drawable/questionmark"
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:background="#1fbfd1"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+
+
+        />
+    </LinearLayout>
+
+</RelativeLayout>
